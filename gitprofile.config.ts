@@ -33,75 +33,95 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'Enterprise Document Workflow Platform',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            "Taiwan's leading official document system serving 300+ organizations. Features ML routing (85–95% accuracy), LLM/RAG document generation, and inter-agency correspondence workflows.",
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'https://www.gss.com.tw/speed',
         },
         {
-          title: 'Project Name',
+          title: 'SaaS Document Workflow Platform',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Cloud-native Azure edition with free trial-to-subscription model. ~50 new subscribers/year. Features automated OCR and email-to-system integration.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'https://www.gsscloud.com/tw/vital-od',
         },
       ],
     },
   },
   seo: {
-    title: 'Portfolio of Chihyang Lee',
-    description: '',
+    title: 'Simon Lee — Senior Product Manager',
+    description:
+      'I blend strategy, system design, and LLM craft to turn complex enterprise work into AI-native products.',
     imageURL: '',
   },
   social: {
     linkedin: 'https://www.linkedin.com/in/chihyanglee/',
-    twitter: 'chihyanglee',
+    twitter: '',
     mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
-    youtube: '', // example: 'pewdiepie'
+    youtube: '',
     dribbble: '',
     behance: '',
     medium: '',
     dev: '',
-    stackoverflow: '', // example: '1/jeff-atwood'
+    stackoverflow: '',
     skype: '',
     telegram: '',
-    website: '',
+    website: 'https://chihyanglee.cc',
     phone: '',
     email: 'chihyanglee@gmail.com',
   },
   resume: {
-    fileUrl:
-      '',
+    fileUrl: '',
   },
   skills: [
-    'JavaScript',
-    'TypeScirpt',
-    'Node.js',
+    'Product Strategy',
+    'Agile/Scrum',
+    'LLM',
+    'RAG',
+    'AI Agents',
+    'NLP',
+    'Domain-Driven Design',
+    '.NET',
     'SQL Server',
-    'Git',
+    'Azure',
     'Docker',
-    'CSS',
-    '.NET'
+    'TypeScript',
+    'OpenSearch',
+    'DevSecOps',
   ],
   experiences: [
     {
       company: 'Galaxy Software Services',
-      position: 'Product Development Manager',
-      from: 'October 2023',
+      position: 'Product Manager',
+      from: '2024',
       to: 'Present',
       companyLink: 'https://www.gss.com.tw',
     },
     {
       company: 'Galaxy Software Services',
-      position: 'System Analyst',
-      from: 'June 2016',
-      to: 'October 2023',
+      position: 'Product Development Manager',
+      from: '2023',
+      to: '2024',
+      companyLink: 'https://www.gss.com.tw',
+    },
+    {
+      company: 'Galaxy Software Services',
+      position: 'Software Designer & System Analyst',
+      from: '2021',
+      to: '2023',
+      companyLink: 'https://www.gss.com.tw',
+    },
+    {
+      company: 'Galaxy Software Services',
+      position: 'Software Engineer',
+      from: '2016',
+      to: '2022',
       companyLink: 'https://www.gss.com.tw',
     },
   ],
@@ -125,28 +145,9 @@ const CONFIG = {
       degree: 'Bachelor in Plant Pathology and Microbiology',
       from: '2008',
       to: '2012',
-    }
-  ],
-  publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     },
   ],
+  publications: [],
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
